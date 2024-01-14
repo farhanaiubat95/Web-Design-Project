@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Css Start */
+
+.banner{
+    background: url(../images-project-2/bannar-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.nav_main .navbar-nav .nav-item a{
+    color: white;
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-left: 60px;
+    margin-top: 45px;
+}
+.nav_main .navbar-nav .nav-item a:hover{
+    color: black;
+}
+.nav_img{
+    margin-top: 45px;
+}
+.banner_text h2{
+    color: white;
+    font-size: 65pt;
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 180px;
+}
+.banner_text h3{
+    color: white;
+    font-size: 65pt;
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner_text p{
+    color: white;
+    font-size: 22pt;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+}
+.banner_text h4{
+    text-align: center;
+    margin-top: 30px; 
+    padding-top: 80px;
+    padding-bottom: 155px;
+}
+.banner_text h4 a{
+    color: white;
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 18px 48px;
+    background-color: #e84545;
+    transition: all linear .3s;
+}
+/* Banner Css End */
+
+/* Body Css Start */
+.body{
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+.part1{
+    text-align: center;
+    margin-top:75px;
+    margin-bottom: 75px;
+}
+.part1 h3{
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.part1 p{
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 13px;
+}
+/* Body Css End */
+
+/* Image Css End */
+.image_part{
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.image-row{
+    --bs-gutter-x: 0;
+}
+.image-col{
+    border: 1px solid white;
+}
+.image_part a img{
+    height:100% ;
+}
+.gallary_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: -50%;
+    background-color: rgb(231,59,69,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.image_part:hover .gallary_overlay{
+    visibility: visible;
+    left: 0;
+    transition: all linear .3s;
+}
+.gallary_overlay h3{
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.gallary_overlay h4{
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+/* Image Css End */
+
+/* Information Css Start*/
+.information{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.info-card {
+    border: none;
+}
+.info-card img{
+    border-radius: 0%;
+}
+.card-body {
+    padding:0;
+}
+.card-body .card-title{
+   margin-top: 30px;
+   margin-bottom: 15px;
+   font-size: 22pt;
+   font-family: 'Raleway', sans-serif;
+   font-weight:400 ;
+   color: #494c4e;
+}
+.card-body .card-title1{
+    margin-bottom: 30px;
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400 ;
+    color: #e84545;
+    text-transform: uppercase;
+}
+.card-body .card-text{
+    margin-bottom: 30px;
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400 ;
+    color: #6c7279;
+}
+.card-body .card-link{
+   border: 1px solid #c6cacc;
+   padding: 5px 10px;
+}
+/* Information Css End */
+
+/* About css strat */
+.about-row{
+    --bs-gutter-x: 0;
+}
+
+.carousel-indicators{
+    margin-bottom: 5rem;
+    margin-right: 35%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff; 
+    opacity: 0.3;
+    }
+    
+    .carousel-indicators .active {
+    background-color: white;  
+    opacity: 1;
+    }
+    
+    .carousel-control-prev-icon {
+    background-image: none;
+    }
+    
+    .carousel-control-next-icon {
+    background-image: none;
+    }
+/* About css End*/
+
+/* Download css start*/
+.download{
+    margin: 100px 0;
+}
+.down_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down_text1{
+    text-align: center;
+}
+.down_text1 h3{
+    font-size: 28pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #3b3e41;
+}
+.down_text1 h4{
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #2d3033;
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+}
+.down_text1 a{
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #3b3e41;
+    padding: 20px 80px;
+    background-color: #e84545;
+    color: white;
+}
+/* Download css End*/
+
+/* footer css start*/
+footer{
+    background-color: #3a3e64;
+
+}
+.foot_text{
+    padding: 65px 65px 100px 120px;
+    text-align: center;
+}
+.foot_text h3{
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.foot_text p{
+    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #757893;
+}
+.foot_2_text{
+    padding-bottom: 20px;
+}
+.foot_text .card-link{
+    border: 2px solid white;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 5%;
+ }
+ .edit_foot_3 {
+    padding: 65px 5px 100px 5px;
+    text-align: center;
+ }
+ .edit_foot_2{
+    padding: 65px 5px 100px 5px;
+    text-align: center;
+ }
+.copy_right{
+    background-color: #313454;
+    text-align: center;
+    padding: 30px 0;
+}
+.copy_right h3{
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #757893;
+} 
+.copy_right h4{
+    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #757893;
+}
+.copy_right h4 span{
+    color: white;
+}
+/* Footer css End*/

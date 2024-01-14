@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- Header html Start  --> */
+header{
+    background-color: #0872b9;
+    padding: 10px 0;
+}
+.header_menu ul{
+    float: right;
+}
+.header_menu ul li{
+    float: left;
+    padding: 0 25px;
+    
+}
+.header_menu ul li a{
+    color: #e7e7e7 ;
+    font-size: 14px;
+}
+.header_menu ul li a:hover{
+    color: #353535;
+    transition: all linear .3s;
+}
+.welcome p{
+    font-size: 14px;
+    color: #e7e7e7;
+    font-family: 'Open Sans', sans-serif;    
+}
+/* <!-- Header html End  --> */
+
+/* <!-- Navigation part Start --> */
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover{
+    color: #0872b9;
+}
+
+/* <!-- Navigation part End --> */
+
+/* <!-- Banner part start --> */
+#banner{
+    background: url(../images-project-1/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 88px 0;
+    background-color: rgb(0,0,0,.6);
+}
+.banner_content{
+    text-align: right;
+    color:  #e7e7e7;
+}   
+.banner_content h3{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;  
+    font-weight: 400;
+    text-transform: uppercase;
+}  
+.banner_content h4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.banner_content p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+.banner_content a{
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    padding: 9px 30px;
+    color:  #e7e7e7;
+    border: 2px solid white;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.banner_content a:hover{
+    color:  #e7e7e7;
+    background-color:#0872b9;
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+}
+
+/* <!-- Banner part End --> */
+
+/* About Part Start */
+.common_heading h4{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    position: relative;
+        
+}
+.common_heading h4:after{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 46.4%;
+    height: 2px;
+    width: 38px;
+    background-color: #0872b9;
+}
+.common_heading h4:before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 49.7%;
+    height: 2px;
+    width: 6px;
+    background-color: #0872b9;
+}
+
+.common_heading h4 span:after{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 50.7%;
+    height: 2px;
+    width: 3px;
+    background-color: #0872b9;
+}
+.common_heading h4 span:before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 51.4%;
+    height: 2px;
+    width: 2px;
+    background-color: #0872b9;
+}
+.about_text{
+    margin: 44px 0;
+}
+.about_text p:first-child{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.about_text p{
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+
+}
+
+/* About Part End */
+
+/* Our Services Part Start */
+
+.ser_main{
+    position: relative;
+    margin-top: 40px;
+}
+.ser_main:hover .ser_icon-main1,
+.ser_main:hover .ser_icon{
+   background-color: #5bc5f4;
+}
+.ser_main:hover .ser_1_img img{
+    box-shadow: 1px 1px 10px black;
+}
+.ser_icon-main1{   
+    width: 105px;
+    height: 105px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -23%;
+    left: 37.3%;
+
+}
+.ser_icon{
+    width: 95px;
+    height: 95px;
+    background-color: #f1f1f1;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser_img_main{
+    position: relative;
+}
+.ser_text{
+    align-items: center;
+    position: absolute;
+    bottom: 21%;
+    left: 25%;
+}
+.ser_text h4{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.ser_text p{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: center;   
+    padding-bottom: 20px;
+
+}
+
+/* Our Services Part End */
+
+/* Our_Portfolio Part Start */
+/* Small image css Start */
+.small_img{
+    position: relative;
+  
+}
+.gallery_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0,.6);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.gallery_overlay a{
+    background-color:#5bc5f4 ;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.small_img:hover .gallery_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+/* Small image css End */
+/* Big image css Start */
+.big_img{
+    position: relative;
+}
+
+.big_img:hover .gallery_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+
+/* Big image css End */
+
+/* Our_Portfolio Part End */
+
+/* team_image css start */
+.team_img{
+    position: relative;
+    overflow-x: hidden;
+}
+.team_overlay{
+    position: absolute;
+    top: 0;
+    right: -40%;
+    height: 100%;
+    width: 37%;
+    background-color: rgb(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+
+.team_overlay ul li a{
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: all linear .3s;
+
+}
+.team_overlay ul li a:hover{
+    background-color: #5bc5f4;
+    border: 2px solid #5bc5f4;
+    transition: all linear .3s;
+}
+
+.team_img:hover .team_overlay{
+    visibility: visible;
+    right: 0%;
+    transition: all linear .3s;
+}
+.team_text{
+    text-align: center;
+}
+.team_text h4{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;  
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0;
+    transition: all linear .3s;
+}
+.team_text h3{
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;  
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.team_full:hover .team_text h4{
+    color: #5bc5f4;
+    transition: all linear .3s;
+
+}
+/* team_image  css  End */
+
+/* <!-- Testimonial html start --> */
+.testi_img{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.testi_content{
+    height: 180px;
+    background-color: #f1f1f1;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+}
+.testi_content h4{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.testi_content h3{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.testi_content p{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400; 
+    line-height: 25px; 
+}
+.testi_content ul{
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+.testi_content ul li a{
+    color: #5bc5f4;
+    padding: 0 2px;
+    font-size: 13px;
+}
+.testi_triangle{
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: -10%;
+    left: 47%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+footer{
+    background-color: #353535;
+    padding: 20px 0;
+    margin-top: 40px;
+
+}
+.footer_text p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+}
+.footer_text p:first-child{
+    color: white;
+    padding-top: 30px;
+}
+.footer_text p:last-child{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.foot_head h4{
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 25px;
+
+}
+.foot_head{
+    margin-bottom: 33px;
+}
+.foot_sub_1 a{
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;    
+}
+.foot_sub_text a {
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+}
+
+
+.line1 ul li a{
+    color: white;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.line1 ul li a:hover{
+    color: #53a8ce;
+    transition: all linear .3s;
+}
+.image1{
+    margin-top: 25px;
+}
+.copy_right h3{
+    font-size: 13px;
+    text-align: center;
+    padding: 17px 0;
+    background-color: #555555;
+    color: white;
+    transition: all linear .3s;
+}
+.copy_right h3:hover{
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
+/* <!-- Testimonial html End --> */
