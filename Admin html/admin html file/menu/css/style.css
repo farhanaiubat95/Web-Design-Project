@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cls{
+    clear: both;
+}
+header{
+    background-color: aqua;  
+}
+.container{
+    width: 80%;
+    
+    margin: 0 auto;
+}
+.logo{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.menu{
+    width: 60%;
+    float: left;
+    
+}
+.menu ul{
+    
+        float: right;
+}
+.menu ul li{
+    float: left;
+    height: 70px;
+    width: 100px;
+    line-height: 70px;
+    text-align: center;
+}
+.menu ul li:hover{
+    background-color: bisque;
+}
+.banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner_overlay{
+    padding: 240px 0;
+    background-color: rgba(0, 0, 0, 0.77);
+}

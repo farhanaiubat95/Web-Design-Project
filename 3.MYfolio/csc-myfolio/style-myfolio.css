@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER PART START */
+header{
+    background-color: #02918c;
+   padding-bottom: 10px;
+}
+.navbar-brand{
+    padding-left: 66px;
+    padding-bottom: 5px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding-right: 45px;
+    color: white;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    
+}
+/* HEADER PART END */
+
+/* BANNER PART START */
+.banner_bake{
+    background: url(../images-myfolio/banner_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 209px ;
+    padding-left: 180px;
+    padding-right: 165px;
+    text-align: center;
+}
+.banner_overlay h4{
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.banner_overlay pre{
+    padding: 20px 0;
+    color: white;
+    font-size: 68pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+
+}
+.banner_overlay h5{
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.banner_overlay img{
+    padding: 50px 0;
+}
+.banner_overlay h3 a{
+    padding: 20px 40px;
+    background-color: #cfc91d;
+    color: black;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: bold;
+
+}
+/* BANNER PART DONE  */
+
+/* About PART START */
+.common_text{
+    margin-top: 100px;
+    margin-bottom: 85px;
+    text-align: center;
+    padding: 0 15px
+}
+.common_text h2{
+    color: #02918c;
+    font-size: 46pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+
+}
+.common_text img{
+ padding-top: 30px;
+ padding-bottom: 35px;
+
+}
+.common_text h3{
+    color: #7e8287;
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: 'Myriad Pro', sans-serif;
+    
+}
+.common_text h4{
+    color: #7e8287;
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: 'Myriad Pro', sans-serif;
+    padding: 25px 0;
+}
+.common_text h5{
+    color: #7e8287;
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: 'Myriad Pro', sans-serif;  
+}
+.common_text h4 span{
+    color: #7e8287;
+    font-size: 23pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+ 
+}
+
+/* About PART DONE */
+
+
+/* <!-- TITLE PART START --> */
+.title_part{
+        position: relative; 
+}
+.title_p1{
+    text-align: center;
+}
+.title_p1 a {
+    font-size: 30px;
+    color: #02918c;
+}
+.title_p1 h3{
+    color: black;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    padding: 30px 0;
+}
+
+.title_p1 p{
+    color: #7e8287;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    padding: 0 20px;
+}
+
+.title_p2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 250px;
+    background-color: #d9dbdb;
+}
+
+/* <!-- TITLE PART END --> */
+
+/* SERVICE PART START */
+#service{
+    margin-top: 150px;
+}
+.service_image{
+    background: url(../images-myfolio/middle-part.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_overlay{
+    padding: 0 80px;
+    padding-bottom: 85px;
+}
+.common_text1{
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+.common_text1 p{
+    font-size: 16pt;
+}
+
+.title_ser{
+    text-align: left;
+    margin-top: 60px;
+}
+.title_ser p{
+    color: #7e8287;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    padding-left: 0;
+}
+/* SERVICE PART END */
+
+/* <!-- MY WORK PART START --> */
+.common_textwork p{
+  font-size: 16px;
+  line-height: 30px;
+}
+.image_work{
+    position: relative;
+    overflow-x: hidden;
+}
+.work_image_overlay{
+    position: absolute;
+    top: 0;
+    left: -40%;
+    right:-40%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all linear 0.3s;
+}
+.work_image_overlay .title_p1 {
+    padding: 55px 35px 50px 35px;
+    background-color: rgb(37, 158, 152,0.8);
+}
+.work_image_overlay .title_p1 h3,
+.work_image_overlay .title_p1 p{
+    color: white;
+}
+.image_work:hover .work_image_overlay{
+    visibility: visible;
+    right: 0;
+    left: 0;
+    transition: all linear 0.3s;
+}
+.row{
+    --bs-gutter-x:0;
+}
+
+/* <!-- MY WORK PART END --> */
+
+/* FOOTER PART START */
+footer{
+    background-color: #0b0b0b;
+}
+.contact_form form input::placeholder{
+   font-size: 16pt;
+   color: #898989;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #0b0b0b;
+    text-align: center;
+
+
+}
+.contact_form{
+    text-align: center;
+   
+}
+
+.form_contact{
+    color: white;
+    border: none;
+    border-bottom: 2px solid #898989;
+    box-sizing: d;
+    background-color: #0b0b0b;
+    padding-bottom: 10px;
+    width: 50%;
+    background: transparent;
+    display: inline-block;
+}
+#form_messageid{
+    width: 80%;
+    padding-top: 50px;
+}
+.con_dis{
+    padding: 50px;
+}
+.contact_form form button{
+    padding: 15px 65px;
+    background-color: #cfc91d;
+    border-radius: 0;
+    border: none;
+    color: black;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+     text-transform: uppercase;
+}
+.foot_text{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: #000000;
+}
+.foot_text h3{
+    font-size: 12pt;
+    color: #424548;
+}
+/* FOOTER PART END */

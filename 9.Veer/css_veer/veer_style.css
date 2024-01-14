@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header part start */
+header{
+    padding: 15px 0;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif; 
+    font-weight: 400;
+    color: black;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item .nav-link:hover{   
+    color: #0dac88;
+}
+/* Header part end */
+
+/* Banner part Start */
+#banner{
+    background: url(../image_veer/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 300px 0;
+}
+.banner_inner{
+    text-align: center;
+}
+.banner_inner h1{
+    font-size: 70pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #31d7ce;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+    
+}
+.banner_inner a{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #31d7ce;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border: 2px solid white;
+    border-radius: 60px;
+}
+
+/* Banner part end */
+
+/* About part start */
+#about{
+    padding: 150px 0;
+}
+.about_image_text h1{
+    font-size: 30pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+.about_image_text p{
+    font-size: 15pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+.about_image_text a{
+    font-size: 12pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 60px;
+    background-color: #0dac88;
+}
+
+/* About part end */
+
+/* Service part start */
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    content: '';
+    text-align: center;
+    opacity: .25;
+    border-radius: 50%;
+    background-color: #0dac88;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#service{
+    margin-bottom: 100px;
+}
+.service_text{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.service_text h1{
+    font-size: 40pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service_part{
+    padding: 50px 40px;
+}
+.service_part{
+    margin: 0 15px;
+}
+
+.service_part:hover{
+    border: 3px solid #dff9f8;
+    box-shadow: 1px 1px 10px #dff9f8;
+    border-radius: 10px;
+    
+}
+
+.service_part_text h1{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #696969;
+    margin-bottom: 5px;
+}
+.service_part_text p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #555555;
+}
+
+/* Service part end */
+
+/* My works part start */
+
+.service_img{
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 20px;
+    margin-right: 3px;
+}
+.service_img{
+    margin-left: 10px;
+    
+}
+.service_img_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(79, 77, 76, .6);
+    top:-50%;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.service_img_overlay h1{
+    font-size: 10pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #b9b9b9;
+}
+.service_img:hover .service_img_overlay{
+    visibility: visible;
+    bottom: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+.banner_2{
+    background: url(../image_veer/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+}
+.banner_2_overlay{
+    padding: 50px 0;
+}
+/* My works part end */
+
+/* blog part start */
+#blog{
+    margin-top: 150px;
+}
+.blog_part{
+    margin-top: 50px;
+}
+.blog_part h1{
+    font-size: 18pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+}
+.blog_part p{
+    font-size: 18pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: black;
+    padding: 25px 0;
+}
+.blog_part h4{
+    font-size: 13pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+}
+
+.blog_row{
+    margin-top: 150px;
+    background-color: #50d18d;
+}
+.blog_row_text {
+    padding-left: 70px;
+}
+.blog_row_text h1{
+    font-size: 25pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: white;
+    padding: 60px 0;
+    
+}
+.blog_row_search {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.blog_row_search a{
+    font-size: 13pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: white;
+    padding: 15px 30px;
+    background-color: #4be694;
+    border-radius: 60px;
+}
+/* blog part end */
+
+/* footer part start */
+footer{
+    background-color: #000415;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.foot_text img{
+    padding-top: 50px;
+}
+.foot_logo{
+    padding: 30px 0;
+}
+.foot_text h1{
+    font-size: 18pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.foot_line{
+    text-align: center;
+}
+.foot_logo a{
+    font-size: 18pt;
+}
+.foot_text{
+    padding: 20px 0;
+}
+.foot_text p{
+    font-size: 15pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #ffffff;
+}
+.foot_copy{
+    text-align: center;
+    margin-top: 45px;
+}
+.foot_copy h1{
+    font-size: 15pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #4d4f56;
+}
+
+/* footer part end */

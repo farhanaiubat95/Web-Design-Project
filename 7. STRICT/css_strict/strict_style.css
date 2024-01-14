@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEARDER PART START */
+header{
+    padding: 25px 0;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 24pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-right: 30px;
+
+}
+
+/* HEARDER PART END */
+
+/* BANNER PART START */
+.banner_image{
+    background: url(../image_strict/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 110px 0;
+}
+.banner_text{
+    text-align: center;
+    position: relative;
+}
+.banner_text h1{
+    font-size: 120pt;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;  
+    padding-bottom: 30px;   
+}
+.line {
+    height: 2px;
+    position: absolute;
+    left: 335px;
+    width: 630px;
+    background-color: #15a4fa;
+}
+.banner_text h4{
+    font-size: 20pt;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;  
+    padding: 25px 0;  
+    padding-bottom: 80px;
+}
+.banner_text a{
+    font-size: 18pt;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px 30px;
+    border: 2px solid #15a4fa;
+    border-radius: 5px;
+}
+.banner_text h2 img{
+    padding-top: 200px;
+}
+/* BANNER PART END */
+
+/* Simple PART START */
+.simple_part{
+    text-align: center;
+    padding: 80px 0px;
+}
+.simple_part h1{
+    font-size: 40pt;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.simple_part p{
+    font-size: 18pt;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+.simple{
+    background-color: #f6f9f9;
+}
+
+/* Simple PART END */
+
+
+/* ELLIPSE PART START */
+.Service{
+    margin: 65px 0;
+}
+.Service_part{
+  text-align: center;
+}
+.Service_part h3{
+    font-size: 22pt;
+    color: #5e5e5e;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+.Service_part p{
+    font-size: 15pt;
+    color: #5e5e5e;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+
+/* ELLIPSE PART END  */
+
+
+
+/* IMAGE PART START */
+.image{
+    background-color: #f6f9f9; 
+    padding-bottom: 100px;
+}
+.image_text{
+    text-align: center;
+    padding: 80px 0;
+}
+.image_text h3{
+    font-size: 40pt;
+    color: #5e5e5e;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.image_text h4{
+    font-size: 15pt;
+    color: #5e5e5e;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.image_1{
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 25px;
+    margin-right: 3px;
+}
+.image_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 171, 247, .6);
+    top:-50%;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.image_overlay a {
+     font-size: 14pt;
+     color: white;
+     padding: 5px 10px;
+     border: 2px solid white;
+     margin-left: 5px;
+}
+.image_1:hover .image_overlay{
+    visibility: visible;
+    bottom: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+
+/* IMAGE PART END */
+
+/* FORM Part Start */
+
+.form_image{
+    background: url(../image_strict/footer_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_overlay{
+    padding: 100px 0;
+}
+.form_text{
+    text-align: center;
+}
+.form_text h3{
+    font-size: 40pt;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.form_text h4{
+    font-size: 15pt;
+    color: #7c7e82;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.form_overlay form .form-floating {
+    padding: 0 320px;
+    
+}
+.form_overlay form .form-floating textarea,
+.form_overlay form .form-floating input{
+    background-color: transparent;   
+    border: 2px solid #999999;  
+    
+}
+.form_overlay form .form-floating label{
+    padding-left: 340px;
+    font-size: 15pt;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;  
+}
+.form-check{
+    padding-left: 350px;
+    padding-top: 20px;
+}
+label {
+    display: flex;
+}
+.form-check input{
+    font-size: 15pt;
+   
+    background-color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.form-check label{
+   color: white;
+   padding-left: 15px;
+   font-size: 15pt;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+}
+.form_button{
+    padding-top: 10px;
+    padding-right: 120px;
+}
+.form_button .check_button {
+   font-size: 15pt;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+    padding: 7px 30px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid #15a4fa;
+}
+.form_button .check_button:hover{
+    font-size: 15pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #15a4fa;
+    background-color: #5e5e5e;
+    border-radius: 3px;
+    border: 1px solid #0d7abd;
+}
+/* FORM Part End */
+
+
+/* footer part start*/
+footer{
+    padding: 20px 0;
+}
+.fot_n{
+    font-size: 15pt;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   color: #999999;
+}
+.fot_n1 .fot_n2{
+    padding: 10px 10px;
+}
+.fot_n1 .fot_n2 .nav-link{
+    font-size: 14pt;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   background-color:#15a4fa;
+   padding: 10px 20px;
+   border-radius: 2px;
+}
+
+.fot_n1 .fot_n2 .nav-link:hover{
+    font-size: 15pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    background-color:#94b2c5;  
+}
+
+/* footer part end */

@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner part start */
+.banner{
+    background: url(../image_dream/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 20px 0;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+.banner_text{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+.banner_text h1{
+    font-size: 50pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.banner_text p{
+    font-size: 20pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #cccccc;
+    padding-top: 50px;
+    
+}
+
+/* banner part end */
+
+/* Service part start */
+.service_text{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 80px;
+
+}
+.service_text h1 {
+    font-size: 40pt;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+.service_text img{
+    padding-left: 50px;
+}
+.service_part{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.service_part h3{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.service_part p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    
+   
+}
+
+/* Service part end */
+
+/* Portfolio part start */
+
+.portfolio_image{
+    background: url(../image_dream/middle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio_image_overlay{
+    padding: 90px 0;
+}
+
+.portfolio_text h3{
+    font-size: 40pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.portfolio_text p{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-bottom: 30px;
+}
+.logo_port{
+    padding: 30px 0;
+}
+.logo_text_port{
+    padding: 30px 0;
+}
+.logo_text_port h3{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.logo_text_port p{
+    padding-left: 10px;
+}
+.learn_more_port{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.learn_more_port h1{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    padding: 20px ;
+    padding-left: 30px;
+    text-transform: uppercase;
+    border: 2px solid #ceeefa;
+    border-radius: 100px;
+}
+
+.portfolio_image_1{
+    background: url(../image_dream/middle1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio_image_1_overlay{
+    padding: 100px 0;
+}
+.portfolio_text_1 h3{
+    font-size: 40pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.portfolio_text_1 p{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.portfolio_text_1 p:last-child{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    
+    padding-bottom: 30px;
+}
+.portfolio_1_logo{
+    padding-top: 20px;
+}
+.portfolio_1_logo_text{
+    padding-top: 20px;
+}
+.portfolio_1_logo_text h3{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.portfolio_1_logo_text p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-bottom: 5px;
+}
+.i1{
+    float: left;
+}
+.image-row{
+    --bs-gutter-x: 0;
+}
+
+/* Portfolio part end */
+
+/* about part start */
+#about{
+    padding-bottom: 110px;
+}
+.image_round_text{
+    text-align: right;
+}
+.image_round_text h1{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+   
+}
+.image_round_text h2{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.image_round_text p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+.image_round_text1 {
+    text-align: left;
+}
+.image_round_text1 h1{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-left: 95px;
+}
+.image_round_text1 h2{
+    font-size: 16pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-left: 95px;
+}
+.image_round_text1 p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-bottom: 5px;
+    line-height: 25px;
+    padding-left: 95px;
+    
+}
+.image_round {
+    padding-left: 30px;
+}
+.about_line {
+    height: 110px;
+    width: 2px;
+    background-color: #f1f1f1;
+    margin-left: 51.8%;
+}
+/* about part end */
+
+/* Team part start */
+
+#team{
+    background-color: #f7f7f7;
+}
+.team_part{
+    text-align: center;
+
+}
+
+.team_part h1{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.team_part h2{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.team_part_logo{
+ 
+  padding-left: 22px;
+}
+.team_part .team_part_logo a{
+    font-size: 10pt;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+.team_text_1{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.team_text_1 p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+
+    line-height: 25px;
+}
+/* Team part end */
+
+/* footer part start */
+footer{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.footer_text h3{
+    font-size: 40pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 700;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.footer_text p{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: #a8a8a8;
+    padding-bottom: 30px;
+}
+.foot_logo a{
+    font-size: 14pt;
+}
+.foot_logo_text h1{
+    font-size: 14pt;
+    font-family: 'Myriad Pro', sans-serif;     
+    font-weight: 400;
+    color: white;
+    padding-top: 5px;
+    
+}
+form{
+    padding-top: 45px;
+}
+.form_overlay form .form-floating {
+    padding: 0 320px;
+    
+}
+.form_overlay form .form-floating textarea,
+.form_overlay form .form-floating input{
+    background-color: transparent;   
+    border: 2px solid #999999;  
+    
+}
+.form_overlay form .form-floating label{
+    padding-left: 340px;
+    font-size: 15pt;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;  
+}
+
+label {
+    display: flex;
+}
+.form-check input{
+    font-size: 15pt;
+   
+    background-color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.form_button{
+    padding-top: 20px;
+   
+}
+.form_button .check_button {
+    font-size: 15pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 18px 30px;
+    border-radius: 70px;
+    background-color: #35c2f8;
+    border: 2px solid #15a4fa;
+    text-transform: uppercase;
+}
+.form_button .check_button:hover{
+    font-size: 15pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #15a4fa;
+    background-color: #5e5e5e;
+    border: 1px solid #0d7abd;
+}
+.foot_line{
+    height: 2px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.foot_copy{
+    text-align: center;
+}
+.foot_copy h1{
+    font-size: 14pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    padding-right: 40px;
+}
+/* footer part end */

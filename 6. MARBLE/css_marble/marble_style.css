@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEARDER PART START */
+.navbar-brand{
+  font-size: 40pt;
+  color: #4e4e4e;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.nav-item .nav-link.active,
+.nav-item a{
+    font-size: 16pt;
+    color: #4e4e4e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all linear .3s;
+}
+.nav-item .nav-link.active,
+.nav-item a:hover{
+    color: #40f0cf;
+    transition: all linear .3s;
+}
+nav{
+    
+    background-color: #e5e5e5;
+}
+/* HEARDER PART END */
+
+/* BANNER PART START */
+.banner_image{
+    background: url(../image_marble/big_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overlay{
+    padding: 250px 0;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    font-size: 40pt;
+    color: #f3f3f3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.banner_text h2{
+    font-size: 32pt;
+    color: #a8a8a8;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.banner_text a{
+    font-size: 14pt;
+    color: #f3f3f3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background-color: #3f8dbf;
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+.banner_text a:hover{
+    background-color: #3678a3;
+    transition: all linear .3s;
+}
+/* BANNER PART END */
+
+
+/* ELLIPSE PART START */
+.ellipse{
+    margin-top: 60px;
+}
+.ellipse_part{
+  text-align: center;
+}
+.ellipse_part h3{
+    font-size: 18pt;
+    color: #5e5e5e;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+.ellipse_part p{
+    font-size: 13pt;
+    color: #5e5e5e;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: #dcdcdc;
+    margin: 60px 0;
+}
+/* ELLIPSE PART END  */
+
+
+/* LATEST WORK START */
+ .latest_h3{
+    font-size: 18pt;
+    color: #5e5e5e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+ }
+ .latest_part h1{
+    font-size: 18pt;
+    color: #4e4e4e;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 10px;
+ }
+ .latest_part h2{
+    font-size: 13pt;
+    color: #bcbcbc;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding-bottom: 22px;
+ }
+ .latest_part p{
+    font-size: 13pt;
+    color: #bcbcbc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+ }
+/* LATEST WORK END */
+
+/* Comma Part Start */
+.comma{
+    background-color: #efefef;
+    margin-top: 60px;
+}
+.comma_text{
+    text-align: center;
+    padding: 60px 0;
+}
+.comma_text h1{
+    font-size: 20pt;
+    color: #a1a1a1;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.comma_text h2{
+    font-size: 20pt;
+    color: #a1a1a1;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding-top: 15px;
+}
+/* Comma Part END */
+
+/* footer part start */
+footer{
+    background-color: #1e1e1e;
+    padding: 50px 0;
+}
+.footer_part1 h1{
+    font-size: 18pt;
+    color: #6c6c6c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.footer_part1 p{
+    font-size: 14pt;
+    color: #6c6c6c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.foot_p{
+    font-size: 14pt;
+    color: #6c6c6c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.part2{
+    padding-bottom: 30px;
+}
+/* footer part end */

@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER PART START  */
+
+.head_image{
+   background: url(../image/h2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.head_image_overlay{
+    padding: 0 0 140px 0;
+    background-color: rgba(0, 0, 0,.1);
+    
+}
+.nav_part{
+   
+    background-color: rgba(0, 0, 0,.2);
+}
+.navbar-nav .nav-item{
+    padding-left: 45px;
+}
+.navbar-nav .nav-item a{
+    font-size: 21pt;
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+    font-weight: 400;
+    padding-top: 10px;
+    transition: all linear .3s;
+    
+}
+.nav_bar{
+    padding-top: 10px;   
+}
+.nav_bar a i{
+    color: white;
+    font-size: 21pt;
+    transition: all linear .3s;
+}
+.navbar-nav .nav-item a:hover{
+    color: #dab33e;
+    transition: all linear .3s;
+}
+.nav_bar a i:hover{
+    color: #dab33e;
+    transition: all linear .3s;
+}
+
+.nav_body{
+    text-align: center;
+}
+.nav_body h1{
+    font-size: 90pt;
+    color: #f4f3f1;
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+    padding: 70px 0;
+}
+.nav_body h2{
+    font-size: 90pt;
+    color: #f4f3f1;
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+}
+.nav_a{
+    margin: 30px 0;
+    text-align: center;
+}
+.nav_a a{
+    font-size: 18pt;
+    color: #f4f3f1;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    padding: 15px 35px;
+    background-color: rgba(255, 255, 255,.3);
+
+}
+.nav_a a:first-child{
+    margin-right: 14px;
+}
+.nav_a a:last-child{
+    margin-left: 14px;
+}
+.nav_a a:hover{
+    background-color: rgba(0, 0, 0,.6);
+}
+/* HEADER PART END  */
+
+/* About PART START */
+#about{
+    background: url(../image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_overlay{
+    padding: 60px 0;
+}
+.about_text{
+    text-align: center;
+    padding-top: 45px;
+
+}
+.about_text h1{
+    font-size: 36pt;
+    color: #dab33e;
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.about_text p{
+    font-size: 16pt;
+    color: #5c5c5c;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    margin: 30px 0 50px 0;
+}
+.about_img{
+    
+    padding-left: 38%;
+}
+/* About PART DONE */
+
+
+/* ingredients part start */
+.ingredients_box{
+    padding: 40px 30px 40px 40px;
+    background-color: rgba(0, 0, 0,.6);
+}
+#ingredients{
+    background: url(../image/b3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ingredients_overlay{
+    padding: 60px 0;
+}
+.ingredients_text h1{
+    color: white;
+}
+.ingredients_text p{
+    color: white;
+}
+/* ingredients part end */
+
+
+/* Menu PART START */
+#menu{
+    background: url(../image/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.menu_overlay{
+    padding: 90px 0;
+    
+}
+.menu_head{
+    text-align: center;
+    padding: 50px 0;
+}
+.menu_head h1{
+    font-size: 36pt;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+}
+.menu_item{
+    padding: 30px 0 0 0;
+}
+.menu_item h2{
+    font-size: 21pt;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;   
+    font-weight: 400;
+    border-bottom: 1px solid #dab33e;
+
+}
+.menu_item h2 span{
+    float: right;
+    font-size: 21pt;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;   
+    font-weight: 400;
+}
+.menu_item h4{
+    font-size: 12pt;
+    color: black;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+}
+.menu_item1{
+    border: 1px solid  #dab33e;
+    padding: 10px 10px;
+    margin-top: 25px;
+}
+.part_menu1 {
+ position: relative;
+}
+.part_menu1 h5{
+    position: absolute;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+    border: 1px  ;
+    background-color: #d5b764;
+    padding: 4px 10px;
+    top: 268px;
+    right: 0;
+
+}
+/* Menu PART DONE */
+
+/* reservation part start */
+
+#reservation{
+    background: url(../image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reservation_overlay{
+    padding: 100px 0;
+}
+.reservation_text{
+    text-align: center;
+}
+
+.reservation_text h1{
+    font-size: 36pt;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.reservation_text p{
+    font-size: 14pt;
+    color: #5c5c5c;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    margin: 30px 0 0 0;
+    padding-right: 10px;
+} 
+
+.form_reserve form label{
+    font-size: 14pt;
+    color: #cc9900;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    padding-top: 25px;
+   
+}
+.form_reserve form input{
+    border: 1px solid rgb(137, 136, 136);
+	transition: all linear .3s;
+	background-color: rgba(246,247,247,.8);
+    padding: 11px 0;
+    padding-left: 10px;
+    
+}
+.form_reserve form input:hover{
+    border: 2px solid #c89f2d;
+	transition: all linear .3s;
+}
+.form_reserve form input::placeholder{
+    font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #7c7c7c;
+}
+.calendar_icon{
+	margin-top: -36px;
+	margin-left: 225px;
+}
+
+.calendar_icon a{
+	color: #7c7c7c;
+}
+/* reservation part end */
+
+/* FOOTER PART START */
+footer{
+    background-color: #191919;
+    padding: 30px 0;
+}
+.footer_text {
+  text-align: center;
+}
+.footer_text h1{
+    font-size: 21pt;
+    color: #fefefe;
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+   
+} 
+.footer_text p{
+    font-size: 15pt;
+    color: #fefefe;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+    padding-top: 20px;
+} 
+.footer_text p span{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 700;
+}
+.foot_card{
+   text-align: center;
+   padding: 30px;
+}
+.foot_card a{
+    margin-right: 3px;
+}
+.foot_card a i{
+    color: white;
+    font-size: 13pt;
+    padding: 5px 5px;
+    transition: all linear 0.3s;
+}
+.foot_card a i:hover{
+    background-color: rgb(110, 106, 106,0.6);
+    transition: all linear 0.3s;
+    padding: 5px 7px;
+    
+
+}
+/* FOOTER PART END */
